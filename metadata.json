@@ -1,0 +1,6 @@
+{
+  "name": "FedTB-India: Federated TB Detection",
+  "description": "Privacy-Preserving Tuberculosis Detection across Indian Healthcare Centers using Federated Deep Learning, DP-SGD, and Secure Aggregation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
