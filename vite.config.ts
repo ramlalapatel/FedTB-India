@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(({ command }) => {
   return {
-    base: process.env.GITHUB_PAGES === 'true' ? '/FedTB-India/' : './',
+    base: command === 'build' ? '/FedTB-India/' : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
